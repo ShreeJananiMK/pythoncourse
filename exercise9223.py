@@ -7,4 +7,4 @@ Pay: 96.25'''
 enterHours = float(input("Enter the hour value: "))
 enterRate = float(input("Enter the rate value: "))
 pay = enterHours * enterRate
-print('pay: ' + str(pay) )
+print('Pay: ' + str(pay) )
