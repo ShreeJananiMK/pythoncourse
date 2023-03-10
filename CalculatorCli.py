@@ -16,60 +16,63 @@ Define amount number
 do the operation on all numbers
 
 '''
-NumList = list()
-Operation = input('Operation:').strip()
+# Use camel case to denote function and variable
+numList = list()
+# strip to remove space
+# 'Input' is used to get data from the user
+operation = input('operation:').strip()
 
-def multiply(NumList):
-    total = 1
-    for x in NumList:
-        total *= x
+def multiply(numList):                  # camel case for function
+    total = 1                           # camel case for variable. Set total=1 so that the multiplied value cannot be zero
+    for x in numList:                   # Always give a single tab after colon
+        total *= x                      # Equal symbol should always on right
     return total
 
 
-def add(NumList):
-    total = 0
-    for x in NumList:
-        total += x
+def add(numList):                       # camel case for function
+    total = 0                           # camel case for variable. Set total=0 to maintain addition between the items only
+    for x in numList:                   # Always give a single tab after colon
+        total += x                      # Equal symbol should always on right
     print (total)
 
-def sub(NumList):
-    total = 0
-    for x in NumList:
-        total -= x
+def sub(numList):                       # camel case for function
+    total = 0                           # camel case for variable. Set total=0 to maintain subtraction between the items only
+    for x in numList:                   # Always give a single tab after colon
+        total -= x                      # Equal symbol should always on right
     return total
 
-def div(NumList):
-    total = 1
-    for x in NumList:
-        total = x / total
+def div(numList):                       # camel case for function
+    total = 1                           # camel case for variable. Set total=1 to avoid getting infinity as result
+    for x in numList:                   # Always give a single tab after colon
+        total = x / total               # Equal symbol should always on right
     return total
 
-try:
-    N = int(input('Enter the number of elements'))
-    for X in range(N):
-        Num = int(input('Enter number '))
-        NumList.append(Num)  
+try:                                    # Try except method is used to catch error
+    n = int(input('Enter the number of elements'))
+    for X in range(n):
+        num = int(input('Enter number '))
+        numList.append(num)             # Append is used to add items to an existing list
   
 except:
   print("USE NUMBERS ONLY")
   exit()
 
-print(NumList)
+print(numList)
 
 
-Operation = Operation.upper()
-if Operation == 'ADD' or Operation== '+':
-    add(NumList)
+operation = operation.upper()           # Upper is used to convert the lower case to upper case
+if operation == 'ADD' or operation== '+':
+    add(numList)
 
-elif Operation == 'SUB' or Operation == '-':
-    print(sub(NumList))
+elif operation == 'SUB' or operation == '-':
+    print(sub(numList))
 
-elif Operation == 'MUL' or Operation == '*':
-    print(multiply(NumList)) 
+elif operation == 'MUL' or operation == '*':
+    print(multiply(numList)) 
 
-elif Operation == 'DIV' or Operation == '/':
-    print(div(NumList))
+elif operation == 'DIV' or operation == '/':
+    print(div(numList))
 
 else:
-    print('Enter suitable operation')
+    print('ENTER SUITABLE OPERATION')
 
