@@ -1,0 +1,674 @@
+Last login: Wed Jan 24 11:57:08 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Pramods-MacBook-Air:~ pramod$ ls
+Applications				MyFiles
+Creative Cloud Files			OneDrive
+Desktop					Pictures
+Documents				Public
+Downloads				catchsuriann@gmail.com - Google Drive
+Library					eclipse
+Movies					pramood46@gmail.com - Google Drive
+Music
+Pramods-MacBook-Air:~ pramod$ cd MyFiles/
+Pramods-MacBook-Air:MyFiles pramod$ lsd
+-bash: lsd: command not found
+Pramods-MacBook-Air:MyFiles pramod$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pramods-MacBook-Air:MyFiles pramod$ git -v
+git version 2.39.3 (Apple Git-145)
+Pramods-MacBook-Air:MyFiles pramod$ ls
+Abstract-Art-Generator	eclipse			pythoncourse		workspace
+Pramods-MacBook-Air:MyFiles pramod$ mkdir test
+Pramods-MacBook-Air:MyFiles pramod$ cd test
+Pramods-MacBook-Air:test pramod$ git init
+Initialized empty Git repository in /Users/pramod/MyFiles/test/.git/
+Pramods-MacBook-Air:test pramod$ ls
+Pramods-MacBook-Air:test pramod$ ls -a
+.		.DS_Store	.hidden
+..		.git
+Pramods-MacBook-Air:test pramod$ rm -rf .hidden/
+Pramods-MacBook-Air:test pramod$ cd .git
+Pramods-MacBook-Air:.git pramod$ ls
+HEAD		description	info		refs
+config		hooks		objects
+Pramods-MacBook-Air:.git pramod$ cd ..
+Pramods-MacBook-Air:test pramod$ touch fil1
+Pramods-MacBook-Air:test pramod$ mv fil1 file1
+Pramods-MacBook-Air:test pramod$ touch file 2
+Pramods-MacBook-Air:test pramod$ mv file file2
+Pramods-MacBook-Air:test pramod$ mv 2 file3
+Pramods-MacBook-Air:test pramod$ pwd
+/Users/pramod/MyFiles/test
+Pramods-MacBook-Air:test pramod$ cd ../
+Pramods-MacBook-Air:MyFiles pramod$ ls
+Abstract-Art-Generator	pythoncourse		workspace
+eclipse			test
+Pramods-MacBook-Air:MyFiles pramod$ mkdir 
+
+
+
+
+
+
+
+
+Pramods-MacBook-Air:MyFiles pramod$ mkdir test
+Pramods-MacBook-Air:MyFiles pramod$ git init
+Initialized empty Git repository in /Users/pramod/MyFiles/.git/
+Pramods-MacBook-Air:MyFiles pramod$ cd ..
+Pramods-MacBook-Air:~ pramod$ ls -a
+.
+..
+.CFUserTextEncoding
+.DS_Store
+.MJKJDeviceGUID
+.Trash
+.arduinoIDE
+.aspnet
+.bash_history
+.bash_sessions
+.cache
+.config
+.eclipse
+.gitconfig
+.lesshst
+.local
+.mongodb
+.p2
+.python_history
+.ssh
+.swiftpm
+.viminfo
+.vnc
+.vscode
+.zprofile
+.zsh_history
+.zsh_sessions
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+MyFiles
+OneDrive
+Pictures
+Public
+catchsuriann@gmail.com - Google Drive
+eclipse
+pramood46@gmail.com - Google Drive
+Pramods-MacBook-Air:~ pramod$ rm -rf .git
+Pramods-MacBook-Air:~ pramod$ pwd
+/Users/pramod
+Pramods-MacBook-Air:~ pramod$ cd MyFiles/
+Pramods-MacBook-Air:MyFiles pramod$ cd test
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ pwd
+/Users/pramod/MyFiles/test
+Pramods-MacBook-Air:test pramod$ git init
+Initialized empty Git repository in /Users/pramod/MyFiles/test/.git/
+Pramods-MacBook-Air:test pramod$ touch File1 
+Pramods-MacBook-Air:test pramod$ touch File2
+Pramods-MacBook-Air:test pramod$ touch File3
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	File1
+	File2
+	File3
+
+nothing added to commit but untracked files present (use "git add" to track)
+Pramods-MacBook-Air:test pramod$ git add File1
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	File2
+	File3
+
+Pramods-MacBook-Air:test pramod$ git add File2
+Pramods-MacBook-Air:test pramod$ git 
+
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	File3
+
+Pramods-MacBook-Air:test pramod$ git add .
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+	new file:   File3
+
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+	new file:   File3
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   File1
+
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ git add File1
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+	new file:   File3
+
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+	new file:   File3
+
+Pramods-MacBook-Air:test pramod$ git commit touch File4
+error: pathspec 'touch' did not match any file(s) known to git
+error: pathspec 'File4' did not match any file(s) known to git
+Pramods-MacBook-Air:test pramod$ touch File4
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+	new file:   File3
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	File4
+
+Pramods-MacBook-Air:test pramod$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+Pramods-MacBook-Air:test pramod$ git add -a .
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+Pramods-MacBook-Air:test pramod$ git add -A
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   File1
+	new file:   File2
+	new file:   File3
+	new file:   File4
+
+Pramods-MacBook-Air:test pramod$ git commit -m "first commit"
+[main (root-commit) 208d8ca] first commit
+ 4 files changed, 1 insertion(+)
+ create mode 100644 File1
+ create mode 100644 File2
+ create mode 100644 File3
+ create mode 100644 File4
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+nothing to commit, working tree clean
+Pramods-MacBook-Air:test pramod$ git branch
+* main
+Pramods-MacBook-Air:test pramod$ git branch -h
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --recurse-submodules  recurse through submodules
+    --format <format>     format to use for the output
+
+Pramods-MacBook-Air:test pramod$ 
+Pramods-MacBook-Air:test pramod$ git branch testbranch1
+Pramods-MacBook-Air:test pramod$ git branch
+* main
+  testbranch1
+Pramods-MacBook-Air:test pramod$ git checkout testbranch1
+Switched to branch 'testbranch1'
+Pramods-MacBook-Air:test pramod$ git branch
+  main
+* testbranch1
+Pramods-MacBook-Air:test pramod$ git status
+On branch testbranch1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   File2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Pramods-MacBook-Air:test pramod$ git diff
+diff --git a/File2 b/File2
+index e69de29..a406b3d 100644
+--- a/File2
++++ b/File2
+@@ -0,0 +1 @@
++Hello janani and shachin
+\ No newline at end of file
+Pramods-MacBook-Air:test pramod$ git diff
+diff --git a/File2 b/File2
+index e69de29..6232ed2 100644
+--- a/File2
++++ b/File2
+@@ -0,0 +1,2 @@
++Hello janani and shachin
++Welcome to python class
+\ No newline at end of file
+Pramods-MacBook-Air:test pramod$ git diff
+diff --git a/File2 b/File2
+index e69de29..b412d98 100644
+--- a/File2
++++ b/File2
+@@ -0,0 +1,5 @@
++Hello janani and shachin
++Welcome to python class
++Today Is 25th January 
++Tomorrow is 26th January 
++Day after is a Saturday
+Pramods-MacBook-Air:test pramod$ git add -A
+Pramods-MacBook-Air:test pramod$ git commit -m "sample commit
+Pramods-MacBook-Air:test pramod$ git commit -m "sample commit"
+[testbranch1 d477269] sample commit
+ 1 file changed, 5 insertions(+)
+Pramods-MacBook-Air:test pramod$ git status
+On branch testbranch1
+nothing to commit, working tree clean
+Pramods-MacBook-Air:test pramod$ git branch
+  main
+* testbranch1
+Pramods-MacBook-Air:test pramod$ git checkout main
+Switched to branch 'main'
+Pramods-MacBook-Air:test pramod$ cat File2
+Pramods-MacBook-Air:test pramod$ git checkout testbranch1
+Switched to branch 'testbranch1'
+Pramods-MacBook-Air:test pramod$ cat File2
+Hello janani and shachin
+Welcome to python class
+Today Is 25th January 
+Tomorrow is 26th January 
+Day after is a saturday
+Pramods-MacBook-Air:test pramod$ git branch
+  main
+* testbranch1
+Pramods-MacBook-Air:test pramod$ git checkout main
+Switched to branch 'main'
+Pramods-MacBook-Air:test pramod$ git branch
+* main
+  testbranch1
+Pramods-MacBook-Air:test pramod$ git merge testbranch1
+Updating 208d8ca..d477269
+Fast-forward
+ File2 | 5 +++++
+ 1 file changed, 5 insertions(+)
+Pramods-MacBook-Air:test pramod$ 
+
+
+
+
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+nothing to commit, working tree clean
+Pramods-MacBook-Air:test pramod$ cat File2
+Hello janani and shachin
+Welcome to python class
+Today Is 25th January 
+Tomorrow is 26th January 
+Day after is a saturday
+Pramods-MacBook-Air:test pramod$ git branch
+* main
+  testbranch1
+Pramods-MacBook-Air:test pramod$ git branch delete testbranch1
+Pramods-MacBook-Air:test pramod$ git branch
+  delete
+* main
+  testbranch1
+Pramods-MacBook-Air:test pramod$ git branch -d delete
+Deleted branch delete (was d477269).
+Pramods-MacBook-Air:test pramod$ git branch -d testbranch1
+Deleted branch testbranch1 (was d477269).
+Pramods-MacBook-Air:test pramod$ git branch
+* main
+Pramods-MacBook-Air:test pramod$ git remote add origin git@github.com:pramodelangovan/test.git
+Pramods-MacBook-Air:test pramod$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 578 bytes | 578.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:pramodelangovan/test.git
+ * [new branch]      main -> main
+Pramods-MacBook-Air:test pramod$ git 
+
+
+Pramods-MacBook-Air:test pramod$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   File3
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Pramods-MacBook-Air:test pramod$ git add File3
+Pramods-MacBook-Air:test pramod$ git commit -m "edited File3"
+[main 041be02] edited File3
+ 1 file changed, 1 insertion(+)
+Pramods-MacBook-Air:test pramod$ git push origin main
+To github.com:pramodelangovan/test.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:pramodelangovan/test.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Pramods-MacBook-Air:test pramod$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 999 bytes | 333.00 KiB/s, done.
+From github.com:pramodelangovan/test
+ * branch            main       -> FETCH_HEAD
+   d477269..917d949  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+Pramods-MacBook-Air:test pramod$ git config pull.rebase false
+Pramods-MacBook-Air:test pramod$ git config pull.rebase false
+Pramods-MacBook-Air:test pramod$ git pull origin main
+From github.com:pramodelangovan/test
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ File2 | 1 +
+ 1 file changed, 1 insertion(+)
+Pramods-MacBook-Air:test pramod$ cat  File3
+Hello the time is 9:33 PMPramods-MacBook-Air:test pramod$ git push origin 
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 666 bytes | 666.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:pramodelangovan/test.git
+   917d949..c0a73a5  main -> main
+Pramods-MacBook-Air:test pramod$ cd ..
+Pramods-MacBook-Air:MyFiles pramod$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	Abstract-Art-Generator/
+	pythoncourse/
+	test/
+	workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Pramods-MacBook-Air:MyFiles pramod$ rm -rf .git
+Pramods-MacBook-Air:MyFiles pramod$ git status
+fatal: not a git repository (or any of the parent directories): .git
+Pramods-MacBook-Air:MyFiles pramod$ cd pythoncourse/
+
+Pramods-MacBook-Air:MyFiles pramod$ cd pythoncourse/
+Pramods-MacBook-Air:pythoncourse pramod$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Docs/Git.pdf
+	Notebooks/Git.ipynb
+	Notebooks/Lists.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+Pramods-MacBook-Air:pythoncourse pramod$ git add -A .
+Pramods-MacBook-Air:pythoncourse pramod$ git commit -m "as of 25th Jan"
+[master 8a66e85] as of 25th Jan
+ 3 files changed, 2854 insertions(+)
+ create mode 100644 Docs/Git.pdf
+ create mode 100644 Notebooks/Git.ipynb
+ create mode 100644 Notebooks/Lists.ipynb
+Pramods-MacBook-Air:pythoncourse pramod$ git branch
+* master
+Pramods-MacBook-Air:pythoncourse pramod$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 553.56 KiB | 2.62 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:ShreeJananiMK/pythoncourse.git
+   3494d37..8a66e85  master -> master
+Pramods-MacBook-Air:pythoncourse pramod$ ls
+CalculatorCli.py	exercise02032023.py	exercise210223.py
+Docs			exercise10223.py	exercise9223.py
+Notebooks		exercise13223.py
+Pramods-MacBook-Air:pythoncourse pramod$ 
+
+Pramods-MacBook-Air:pythoncourse pramod$ git clone https://github.com/softhints/python.git
+Cloning into 'python'...
+remote: Enumerating objects: 377, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (45/45), done.
+remote: Total 377 (delta 23), reused 17 (delta 4), pack-reused 325
+Receiving objects: 100% (377/377), 607.04 KiB | 2.82 MiB/s, done.
+Resolving deltas: 100% (172/172), done.
+Pramods-MacBook-Air:pythoncourse pramod$ ls
+CalculatorCli.py	exercise02032023.py	exercise210223.py
+Docs			exercise10223.py	exercise9223.py
+Notebooks		exercise13223.py	python
+Pramods-MacBook-Air:pythoncourse pramod$ rm -rf python/
+Pramods-MacBook-Air:pythoncourse pramod$ cd ..
+Pramods-MacBook-Air:MyFiles pramod$ ls
+Abstract-Art-Generator	pythoncourse		workspace
+eclipse			test
+Pramods-MacBook-Air:MyFiles pramod$ git clone https://github.com/softhints/python.git
+Cloning into 'python'...
+remote: Enumerating objects: 377, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (45/45), done.
+remote: Total 377 (delta 23), reused 17 (delta 4), pack-reused 325
+Receiving objects: 100% (377/377), 607.04 KiB | 4.82 MiB/s, done.
+Resolving deltas: 100% (172/172), done.
+Pramods-MacBook-Air:MyFiles pramod$ 
+
+
+
+
+
+
+
+
+
+
